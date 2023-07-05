@@ -36,12 +36,12 @@ const Navbar = () => {
 
           <ul className="social-icons">
             <li>
-              <a href="xyz">
+              <a href="#">
                 <FaGithub />
               </a>
             </li>
             <li>
-              <a href="xyz"></a>
+              <a href="#"></a>
               <FaLinkedin />
             </li>
           </ul>
