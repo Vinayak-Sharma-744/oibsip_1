@@ -5,8 +5,12 @@ const Home = () => {
   return (
     <div className="home">
       <div className="home-name">
-        <h2>Akash</h2>
-        <h3>A Web Developer</h3>
+        <h2>
+          Hi,
+          <br />
+          Akash <br />
+          Web Developer
+        </h2>
       </div>
       <div className="home-img">
         <img src={myimage} alt="" />

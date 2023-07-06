@@ -13,14 +13,14 @@
   flex-direction: column;
   gap: 20px;
   font: bold;
-  color: rgb(183, 183, 244);
+  color: rgb(153, 153, 236);
 
   font-style: italic;
 }
 .home-img {
   width: 400px;
   height: 400px;
-  border-radius: 50%;
+  box-shadow: 0 25px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   margin-left: 72vh;
 }
