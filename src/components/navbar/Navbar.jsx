@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import "./Navbar.css";
-import logo from '../images/logo.png'
+import logo from "../images/logo.png";
 
 const Navbar = () => {
   return (
@@ -32,21 +32,18 @@ const Navbar = () => {
                   <a href="#">Contact</a>
                 </li>
                 <ul className="social-icons">
-              <li>
-                <a href="#">
-                  <FaGithub />
-                </a>
-              </li>
-              <li>
-                <a href="#"></a>
-                <FaLinkedin />
-              </li>
-            </ul>
+                  <li>
+                    <a href="#">
+                      <FaGithub style={{ color: "white", cursor: "pointer" }} />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#"></a>
+                    <FaLinkedin style={{ color: "white", cursor: "pointer" }} />
+                  </li>
+                </ul>
               </ul>
-
             </div>
-
-          
           </div>
         </div>
       </nav>

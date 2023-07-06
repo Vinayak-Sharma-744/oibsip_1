@@ -1,16 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
-* {
-  padding: 0;
-  margin: 0;
-  font-family: "Merriweather Sans", sans-serif;
-}
 nav {
   background: black;
-  /* background: #2F3C7E; */
   box-shadow: 0 25px 15px rgba(0, 0, 0, 0.1);
   width: 100%;
   position: fixed;
-  margin-top: -40px;
+  top: 0;
   height: 120px;
 }
 
@@ -23,11 +16,11 @@ nav {
 .nav-header {
   display: flex;
   align-items: center;
-  padding: 0.5rem;
+  padding: 0.25rem;
 }
 
 .nav-header img {
-  /* padding-top: px; */
+  padding-top: 12 px;
   height: 25vh;
 }
 
