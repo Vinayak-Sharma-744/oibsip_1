@@ -1,32 +1,33 @@
-.resume {
+.project {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pro {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.resume-left {
-  flex: 2;
+.project-one,
+.project-two,
+.project-three {
+  min-height: 200px;
+  border: 1px solid;
+  box-shadow: 0 25px 15px rgba(232, 229, 229, 0.1);
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
 }
 
-.resume-left-text {
-  display: flex;
-  /* align-items: center; */
-  margin-left: 50px;
-  flex-direction: column;
-  font-size: 25px;
-}
-.resume-left-text h1 {
-  max-width: 35vw;
-  color: #5e5df0;
-  margin-bottom: 30px;
-}
-.resume-left-text p {
-  margin-top: 30px;
-  font-size: 20px;
-  color: rgb(23, 29, 29);
-  line-height: 40px;
-}
-.resume-button {
+.project-b4 {
   background: #5e5df0;
   border-radius: 999px;
   box-shadow: #5e5df0 0 10px 20px -10px;
@@ -50,10 +51,6 @@
   word-break: break-word;
   border: 0;
   margin-top: 10px;
-  /* margin-left: 80px; */
 }
-
-.resume-right {
-  flex: 3;
-  height: 100%;
+.project-image {
 }
