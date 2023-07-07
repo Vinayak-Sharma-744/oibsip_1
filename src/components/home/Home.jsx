@@ -10,13 +10,13 @@ const Home = () => {
           <div>
             <h1>I'm a creative web desinger</h1>
             <div className="home-lines">
-              <h3>Elevate your Online Presence with Innovative Web Development</h3>
+              <h3>
+                Elevate your Online Presence with Innovative Web Development
+              </h3>
             </div>
             <div>
               <a id="emailMe" href="mailto:rohanyt74@gmail.com">
-                <button className="button-34">
-                  Connect with me
-                </button>
+                <button className="button-34">Connect with me</button>
               </a>
             </div>
           </div>
@@ -24,7 +24,8 @@ const Home = () => {
         <div className="home-img">
           <img src={myimage} alt="profile pic" />
         </div>
-      </div></div>
+      </div>
+    </div>
   );
 };
 export default Home;
