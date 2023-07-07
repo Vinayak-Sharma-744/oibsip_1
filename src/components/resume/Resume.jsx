@@ -3,7 +3,7 @@ import "./resume.css";
 import Akash from "./akash.pdf";
 
 const Resume = () => {
-  const openInNewTab = () => {};
+  const openInNewTab = () => { };
   return (
     <div className="resume">
       <div className="resume-left">
@@ -11,15 +11,16 @@ const Resume = () => {
           <h1>Resume/CV</h1>
           <p>
             "Unveiling Excellence on Paper: A Reflection of Skills and
-            Accomplishments"
+            "
           </p>
-        </div>
-
+        
         <button className="resume-button">
           <a href={Akash} download>
             Download
           </a>
         </button>
+        </div>
+      
       </div>
       <div className="resume-right">
         <embed

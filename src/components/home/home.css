@@ -1,9 +1,4 @@
 .home {
-  /* height: 100vh; */
-  /* margin-top: 20vh;
-  display: flex;
-  text-align: center;
-  gap: 5px; */
   display: flex;
   flex-direction: row;
   align-items: center;
