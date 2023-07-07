@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.css";
 import myimage from "../images/NewImg.png";
+
 const Home = () => {
   return (
     <div>
@@ -23,8 +24,7 @@ const Home = () => {
         <div className="home-img">
           <img src={myimage} alt="profile pic" />
         </div>
-      </div>
-    </div>
+      </div></div>
   );
 };
 export default Home;
