@@ -26,7 +26,7 @@ const Navbar = () => {
                   <a href="#">Skills</a>
                 </li>
                 <li>
-                  <a href="#">Contact</a>
+                  <a href="#">Contact Me</a>
                 </li>
                 <ul className="social-icons">
                   <li>
