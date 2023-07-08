@@ -3,6 +3,9 @@ import "./resume.css";
 import Akash from "./akash.pdf";
 
 const Resume = () => {
+  const confirm = () => {
+    window.confirm("Are you sure you want to download Resume");
+  };
   return (
     <div className="resume">
       <div className="resume-left">
@@ -10,7 +13,7 @@ const Resume = () => {
           <h1>Resume/CV</h1>
           <p>"Unveiling Excellence on Paper: A Reflection of Skills and "</p>
 
-          <button className="resume-button">
+          <button className="resume-button" onClick={confirm}>
             <a href={Akash} download>
               Download
             </a>
