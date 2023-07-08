@@ -56,6 +56,7 @@
 .resume-right {
   flex: 3;
   height: 100%;
+  margin-left: 30vh;
 }
 
 .resume-icons {
@@ -64,4 +65,5 @@
   justify-content: space-around;
   font-size: 100px;
   margin-top: 30px;
+  font-weight: bolder;
 }

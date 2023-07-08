@@ -1,7 +1,7 @@
 import React from "react";
 import "./resume.css";
 import Akash from "./akash.pdf";
-import { FaJavascript, FaReact, FaNodeJs } from "react-icons/fa";
+import { FaReact, FaNodeJs } from "react-icons/fa";
 
 const Resume = () => {
   const confirm = () => {
@@ -12,23 +12,25 @@ const Resume = () => {
       <div className="resume-left">
         <div className="resume-left-text">
           <h1>Resume/CV</h1>
-          <p>"Unveiling Excellence on Paper: A Reflection of Skills and "</p>
+          <p>
+            "Unveiling Excellence on Paper: <br /> A Reflection of Skills and "
+          </p>
           <button className="resume-button" onClick={confirm}>
             <a href={Akash} download>
               Download
             </a>
           </button>
           <div className="resume-icons">
-            <FaNodeJs style={{ color: "yellow" }} />{" "}
+            <FaNodeJs style={{ color: "yellow" }} />
             <FaReact style={{ color: "blue" }} />
           </div>
         </div>
       </div>
       <div className="resume-right">
         <embed
-          src={Akash}
+          src={`${Akash}#toolbar=0&navpanes=0&scrollbar=0`}
           type="application/pdf"
-          width="100%"
+          width="90%"
           height="600px"
         ></embed>
       </div>

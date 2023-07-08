@@ -8,10 +8,10 @@ import p3 from "../images/p33.png";
 const Project = () => {
   return (
     <div className="project">
-        <div className="heading">
+      <div className="heading">
         <h1>My Projects</h1>
-        </div>
-      
+      </div>
+
       <div className="pro">
         {/* card 1 start here */}
         <div className="card">
@@ -23,10 +23,14 @@ const Project = () => {
             <p>
               Developed a Front-End web application using with React Using Rapid
               API. Integrated Rapid API to fetch gym related data, including
+              <br />
+              <form action=""></form>
               workout plans, exercise tutorials, and nutrition tips.
             </p>
             <button className="project-b4">
-              <a href="https://deluxe-mochi-4e76ab.netlify.app/" target="blank">See Here</a>
+              <a href="https://deluxe-mochi-4e76ab.netlify.app/" target="blank">
+                See Here
+              </a>
             </button>
           </div>
         </div>
@@ -43,7 +47,9 @@ const Project = () => {
               platforms.
             </p>
             <button className="project-b4">
-              <a href="https://dograsocial.netlify.app/" target="blank">See Here</a>
+              <a href="https://dograsocial.netlify.app/" target="blank">
+                See Here
+              </a>
             </button>
           </div>
         </div>
@@ -60,7 +66,9 @@ const Project = () => {
               development, component-based architecture, and responsive design
             </p>
             <button className="project-b4">
-              <a href="https://dograsocial.netlify.app/" target="blank">See Here</a>
+              <a href="https://dograsocial.netlify.app/" target="blank">
+                See Here
+              </a>
             </button>
           </div>
         </div>
