@@ -24,7 +24,7 @@ const Resume = () => {
         <embed
           src={Akash}
           type="application/pdf"
-          width="100"
+          width="100%"
           height="600px"
         ></embed>
       </div>
