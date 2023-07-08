@@ -4,8 +4,8 @@ import Akash from "./akash.pdf";
 import { FaReact, FaNodeJs } from "react-icons/fa";
 
 const Resume = () => {
-  const confirm = () => {
-    window.confirm("Are you sure you want to download Resume");
+  const cnf = () => {
+    alert("The file has been downloaded successfuly")
   };
   return (
     <div className="resume">
@@ -15,7 +15,7 @@ const Resume = () => {
           <p>
             "Unveiling Excellence on Paper: <br /> A Reflection of Skills and "
           </p>
-          <button className="resume-button" onClick={confirm}>
+          <button className="resume-button" onClick={cnf}>
             <a href={Akash} download>
               Download
             </a>
