@@ -7,7 +7,7 @@
 }
 
 .heading {
-  margin-bottom: 70px;
+  margin-bottom: 45px;
 }
 
 .pro {
@@ -43,50 +43,48 @@
   margin-top: 10px;
 }
 
-.card {
+
+ .card {
   position: relative;
   max-width: 450px;
-  height: 30vh;
+  height: 235px;
   border-radius: 10px;
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
   transition: 0.3s;
-  /* padding: 30px 50px; */
   background: #fff;
   cursor: pointer;
-  margin-right: 30px;
+  margin: 30px;  
 }
 
-.card:hover {
-  height: 390px;
+.card:hover{
+    border: 4px double #5e5df0;
 }
+.card:hover > .content{
+    transform: translateY(-200px);
+    opacity: 1;
+}
+
+.card:hover > .imgbox{
+    filter: blur(8px);
+}
+
 
 .imgbox {
   position: relative;
-  max-width: 451px;
   height: 200px;
-  transform: translateY(-80px);
-  z-index: 99;
 }
 
 .imgbox img {
   width: 100%;
   border-radius: 10px;
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
 }
 
 .content {
-  padding: 10px 20px;
+  padding: 30px 20px;
   text-align: center;
-  transform: translateY(-260px);
   opacity: 0;
-  transition: 0.3s;
-}
-
-.card:hover > .content {
-  opacity: 1;
-  transform: translateY(1px);
+  transition: 0.5s;
 }
 
 .content h3 {
-  color: #7f9ead;
+  color: #5e5df0;
 }
