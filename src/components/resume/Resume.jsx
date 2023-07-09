@@ -5,7 +5,7 @@ import { FaReact, FaNodeJs } from "react-icons/fa";
 
 const Resume = () => {
   const cnf = () => {
-    alert("The file has been downloaded successfuly")
+    alert("The file has been downloaded successfuly");
   };
   return (
     <div className="resume">
@@ -21,8 +21,8 @@ const Resume = () => {
             </a>
           </button>
           <div className="resume-icons">
-            <FaNodeJs style={{ color: "yellow" }} />
-            <FaReact style={{ color: "blue" }} />
+            <FaNodeJs style={{ color: "yellow" }} className="bounce" />
+            <FaReact style={{ color: "blue" }} className="bounce" />
           </div>
         </div>
       </div>
