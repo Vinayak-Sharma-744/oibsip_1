@@ -9,7 +9,7 @@ const Experince = () => {
       <section class="articles">
         <article>
           <div className="article-wrapper">
-            <figure>
+            <figure className="fig-1">
               <img
                 src="https://suvidhafoundationedutech.org/assets/images/Others/slogo_footer.png"
                 alt=""

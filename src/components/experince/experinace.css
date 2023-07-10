@@ -15,12 +15,16 @@
   max-width: 800px;
   gap: 40px;
 }
+
+.fig-1{
+    background-color: #1C2529;
+}
+
 article {
   border-radius: 16px;
   box-shadow: none;
   background: #fff;
-
-  transition: all 0.4s ease-in-out;
+  transition: all 0.2s ease-in-out;
   overflow: hidden;
 }
 
@@ -44,7 +48,7 @@ article img {
   max-width: 100%;
   transform-origin: center;
   transform: scale(var(--img-scale));
-  transition: transform 0.4s ease-in-out;
+  transition: transform 0.05s ease-in-out;
 }
 
 .article-body {
