@@ -2,10 +2,12 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import "./Navbar.css";
 import logo from "../images/logo.png";
+import { BrowserRouter } from "react-router-dom"
+import { HashLink as Link } from "react-router-hash-link";
 
 const Navbar = () => {
   return (
-    <>
+    <BrowserRouter>
       <nav className="navBar">
         <div className="nav-center">
           <div className="nav-header">
@@ -14,19 +16,19 @@ const Navbar = () => {
             <div className="links-container show-container">
               <ul className="links">
                 <li>
-                  <a href="#">About</a>
+                  <Link to="#Home" smooth>About</Link>
                 </li>
                 <li>
-                  <a href="#">Resume</a>
+                  <Link to="#Resume" smooth>Resume</Link>
                 </li>
                 <li>
-                  <a href="#">Projects</a>
+                  <Link to='#Project' smooth>Projects</Link>
                 </li>
                 <li>
-                  <a href="#">Skills</a>
+                  <Link to="#">Skills</Link>
                 </li>
                 <li>
-                  <a href="#">Contact Me</a>
+                  <Link to="#contact-main" smooth>Contact Me</Link>
                 </li>
                 <ul className="social-icons">
                   <li>
@@ -44,7 +46,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-    </>
+    </BrowserRouter>
   );
 };
 

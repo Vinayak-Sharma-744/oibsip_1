@@ -7,7 +7,7 @@ import p3 from "../images/p33.png";
 
 const Project = () => {
   return (
-    <div className="project">
+    <div id="Project">
       <div className="heading">
         <h1>My Projects</h1>
       </div>

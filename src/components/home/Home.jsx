@@ -5,7 +5,7 @@ import myimage from "../images/NewImg.png";
 const Home = () => {
   return (
     <div>
-      <div className="home">
+      <div id="Home">
         <div className="home-txt">
           <div>
             <h1>I'm a creative web desinger</h1>

@@ -8,7 +8,7 @@ const Resume = () => {
     alert("The file has been downloaded successfuly");
   };
   return (
-    <div className="resume">
+    <div id="Resume">
       <div className="resume-left">
         <div className="resume-left-text">
           <h1>Resume/CV</h1>
