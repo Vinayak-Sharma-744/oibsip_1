@@ -60,7 +60,7 @@
     border: 4px double #5e5df0;
 }
 .card:hover > .content{
-    transform: translateY(-200px);
+    /* transform: translateY(-200px); */
     opacity: 1;
 }
 
@@ -84,6 +84,7 @@
   text-align: center;
   opacity: 0;
   transition: 0.5s;
+  transform: translateY(-200px);
 }
 
 .content h3 {
