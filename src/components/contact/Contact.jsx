@@ -1,11 +1,48 @@
 import React from "react";
 import "./contact.css";
+import {
+  FaFacebook,
+  FaWhatsapp,
+  FaTwitter,
+  FaGoogle,
+  FaInstagram,
+} from "react-icons/fa";
 
 const Contact = () => {
   return (
     <div id="contact-main">
       <div className="contHeading">
         <h1>Contact Me</h1>
+      </div>
+
+      <div class="wrapper">
+        <ul>
+          <li class="facebook">
+            <a href="#">
+              <FaFacebook style={{ color: "white", cursor: "pointer" }} />
+            </a>
+          </li>
+          <li class="twitter">
+            <a href="#">
+              <FaTwitter style={{ color: "white", cursor: "pointer" }} />
+            </a>
+          </li>
+          <li class="instagram">
+            <a href="#">
+              <FaInstagram style={{ color: "white", cursor: "pointer" }} />
+            </a>
+          </li>
+          <li class="google">
+            <a href="#">
+              <FaGoogle style={{ color: "white", cursor: "pointer" }} />
+            </a>
+          </li>
+          <li class="whatsapp">
+            <a href="#">
+              <FaWhatsapp style={{ color: "white", cursor: "pointer" }} />
+            </a>
+          </li>
+        </ul>
       </div>
 
       <div className="form">
