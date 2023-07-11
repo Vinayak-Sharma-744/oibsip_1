@@ -4,7 +4,7 @@ import {
   FaFacebook,
   FaWhatsapp,
   FaTwitter,
-  FaGoogle,
+  FaEnvelope,
   FaInstagram,
 } from "react-icons/fa";
 
@@ -19,27 +19,27 @@ const Contact = () => {
         <ul>
           <li class="facebook">
             <a href="#">
-              <FaFacebook style={{ color: "white", cursor: "pointer" }} />
+              <FaFacebook style={{ color: "black", cursor: "pointer" }} />
             </a>
           </li>
           <li class="twitter">
             <a href="#">
-              <FaTwitter style={{ color: "white", cursor: "pointer" }} />
+              <FaTwitter style={{ color: "black", cursor: "pointer" }} />
             </a>
           </li>
           <li class="instagram">
             <a href="#">
-              <FaInstagram style={{ color: "white", cursor: "pointer" }} />
+              <FaInstagram style={{ color: "black", cursor: "pointer" }} />
             </a>
           </li>
           <li class="google">
             <a href="#">
-              <FaGoogle style={{ color: "white", cursor: "pointer" }} />
+              <FaEnvelope style={{ color: "black", cursor: "pointer" }} />
             </a>
           </li>
           <li class="whatsapp">
             <a href="#">
-              <FaWhatsapp style={{ color: "white", cursor: "pointer" }} />
+              <FaWhatsapp style={{ color: "black", cursor: "pointer" }} />
             </a>
           </li>
         </ul>
