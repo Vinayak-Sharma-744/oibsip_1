@@ -19,27 +19,27 @@ const Contact = () => {
         <ul>
           <li class="facebook">
             <a href="#">
-              <FaFacebook style={{ color: "black", cursor: "pointer" }} />
+              <FaFacebook className="brandIcon" style={{ fontSize:"50", color: "black", cursor: "pointer" }} onMouseOver={({target})=>target.style.color="#3b5998"} />
             </a>
           </li>
           <li class="twitter">
             <a href="#">
-              <FaTwitter style={{ color: "black", cursor: "pointer" }} />
+              <FaTwitter className="brandIcon" style={{ fontSize:"50", color: "black", cursor: "pointer" }} onMouseOver={({target})=>target.style.color="#00aced"} />
             </a>
           </li>
           <li class="instagram">
             <a href="#">
-              <FaInstagram style={{ color: "black", cursor: "pointer" }} />
+              <FaInstagram className="brandIcon" style={{ fontSize:"50", color: "black", cursor: "pointer" }} onMouseOver={({target})=>target.style.color="#bc2a8d"} />
             </a>
           </li>
           <li class="google">
             <a href="#">
-              <FaEnvelope style={{ color: "black", cursor: "pointer" }} />
+              <FaEnvelope className="brandIcon" style={{ fontSize:"50", color: "black", cursor: "pointer" }} onMouseOver={({target})=>target.style.color="#dd4b39"} />
             </a>
           </li>
           <li class="whatsapp">
             <a href="#">
-              <FaWhatsapp style={{ color: "black", cursor: "pointer" }} />
+              <FaWhatsapp className="brandIcon" style={{ fontSize:"50", color: "black", cursor: "pointer" }} onMouseOver={({target})=>target.style.color="#4dc247"} />
             </a>
           </li>
         </ul>
