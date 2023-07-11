@@ -1,7 +1,7 @@
 import React from "react";
 import "./resume.css";
 import Akash from "./akash.pdf";
-import { FaReact, FaNodeJs } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaCss3Alt } from "react-icons/fa";
 
 const Resume = () => {
   const cnf = () => {
@@ -11,7 +11,7 @@ const Resume = () => {
     <div id="Resume">
       <div className="resume-left">
         <div className="resume-left-text">
-          <h1>Resume/CV</h1>
+          <h1 style={{color:"Black"}}>Resume/CV</h1>
           <p>
             "Unveiling Excellence on Paper: <br /> A Reflection of Skills and "
           </p>
@@ -21,8 +21,9 @@ const Resume = () => {
             </a>
           </button>
           <div className="resume-icons">
-            <FaNodeJs style={{ color: "yellow" }} className="bounce" />
-            <FaReact style={{ color: "blue" }} className="bounce" />
+            <FaCss3Alt style={{ color: "black" }} className="bounce-2" />
+            <FaNodeJs style={{ color: "black" }} className="bounce-1" />
+            <FaReact style={{ color: "black" }} className="bounce-3" />
           </div>
         </div>
       </div>

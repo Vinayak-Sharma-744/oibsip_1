@@ -1,4 +1,5 @@
 import React from "react";
+import emailjs from 'emailjs-com'
 import "./contact.css";
 import {
   FaFacebook,
@@ -9,6 +10,11 @@ import {
 } from "react-icons/fa";
 
 const Contact = () => {
+  function sendEmail(e){
+    e.preventDefault();
+
+    emailjs.sendForm()
+  }
   return (
     <div id="contact-main">
       <div className="contHeading">
@@ -46,7 +52,7 @@ const Contact = () => {
       </div>
 
       <div className="form">
-        <form action="" className="entry">
+        <form action="" onSubmit={sendEmail} className="entry">
           <div className="inputDiv">
             <input className="input ip1" type="text" placeholder="Name"></input>
 
