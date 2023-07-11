@@ -8,14 +8,14 @@ const Home = () => {
       <div id="Home">
         <div className="home-txt">
           <div>
-            <h1>I'm a creative web desinger</h1>
+            <h1>I'm a creative web developer</h1>
             <div className="home-lines">
               <h3>
                 Elevate your Online Presence with Innovative Web Development
               </h3>
             </div>
             <div>
-              <a id="emailMe" href="mailto:rohanyt74@gmail.com">
+              <a id="emailMe" href="mailto:akashdogra171@gmail.com">
                 <button className="button-34">Connect with me</button>
               </a>
             </div>
