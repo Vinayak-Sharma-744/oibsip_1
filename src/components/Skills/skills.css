@@ -1,0 +1,93 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 50px;
+  }
+  
+  .skills h1 {
+    font-size: 40px;
+  }
+  
+  .skills-grid {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    border-radius: 16px;
+    box-shadow: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  
+    padding: 20px;
+    height: 80%;
+  }
+  
+  .skills-html,
+  .skills-javascript,
+  .skills-react,
+  .skills-mern {
+    font-size: 20px;
+    color: rgb(132, 132, 237);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  
+  
+  .skills-html span {
+    width: 85%;
+    height: 20px;
+    background-color: rgb(244, 148, 148);
+    border-radius: 20px;
+    animation: html 2s ease infinite;
+  }
+  @keyframes html {
+      from {width: 0%;}
+      to {width: 85%;}
+  }
+  
+  .skills-javascript span {
+    width: 65%;
+    height: 20px;
+    background-color: rgb(244, 148, 148);
+    border-radius: 20px;
+    animation: js 2s ease infinite;
+  }
+  
+  @keyframes js {
+      from {width: 0%;}
+      to {width: 65%;}
+  }
+  
+  .skills-react span {
+    width: 60%;
+    height: 20px;
+    background-color: rgb(244, 148, 148);
+    border-radius: 20px;
+    animation: react 2s ease infinite;
+  }
+  
+  @keyframes react {
+      from {width: 0%;}
+      to {width: 60%;}
+  }
+  
+  .skills-mern span {
+    width: 35%;
+    height: 20px;
+    background-color: rgb(244, 148, 148);
+    border-radius: 20px;
+    animation: mern 2s ease infinite;
+  }
+  
+  @keyframes mern {
+      from {width: 0%;}
+      to {width: 35%;}
+  }
+  
