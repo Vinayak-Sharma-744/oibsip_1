@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 40px;
-  margin: 50px 50px 50px 50px;
+  margin: 50px;
 }
 
 .skills h1 {
@@ -38,11 +38,18 @@
   gap: 10px;
 }
 
+
+
 .skills-html span {
   width: 85%;
   height: 20px;
   background-color: rgb(244, 148, 148);
   border-radius: 20px;
+  animation: html 2s ease infinite;
+}
+@keyframes html {
+    from {width: 0%;}
+    to {width: 85%;}
 }
 
 .skills-javascript span {
@@ -50,6 +57,12 @@
   height: 20px;
   background-color: rgb(244, 148, 148);
   border-radius: 20px;
+  animation: js 2s ease infinite;
+}
+
+@keyframes js {
+    from {width: 0%;}
+    to {width: 65%;}
 }
 
 .skills-react span {
@@ -57,6 +70,12 @@
   height: 20px;
   background-color: rgb(244, 148, 148);
   border-radius: 20px;
+  animation: react 2s ease infinite;
+}
+
+@keyframes react {
+    from {width: 0%;}
+    to {width: 60%;}
 }
 
 .skills-mern span {
@@ -64,4 +83,10 @@
   height: 20px;
   background-color: rgb(244, 148, 148);
   border-radius: 20px;
+  animation: mern 2s ease infinite;
+}
+
+@keyframes mern {
+    from {width: 0%;}
+    to {width: 35%;}
 }
