@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-// import emailjs from 'emailjs-com'
 import "./contact.css";
 import emailjs from "@emailjs/browser";
 import {
@@ -11,11 +10,32 @@ import {
 } from "react-icons/fa";
 
 const Contact = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_096p225",
+        "template_mmr696h",
+        form.current,
+        "m-2zcP03M9JbtvoJT"
+      )
+      .then(
+        (res) => {
+          console.log(res.text);
+        },
+        (error) => {
+          console.log(error);
+        }
+      );
+  };
   return (
     <div id="contact-main">
       <div className="contHeading">
         <h1>Contact Me</h1>
       </div>
+
       <div class="wrapper">
         <ul>
           {/* <li class="facebook" target="_blank" rel="noreferrer">
@@ -80,7 +100,7 @@ const Contact = () => {
       </div>
 
       <div className="form">
-        <form action="" className="entry">
+        <form action="" className="entry" onSubmit={sendEmail} ref={form}>
           <div className="inputDiv">
             <input
               className="input ip1"
