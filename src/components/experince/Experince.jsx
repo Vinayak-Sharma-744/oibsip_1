@@ -1,19 +1,18 @@
 import React from "react";
 import "./experinace.css";
-
+import suvidha from "../images/suvidha.png"
+import oasis from "../images/oasis.png"
 const Experince = () => {
   return (
     <div className="experience ">
       <h1>Past Experience </h1>
 
       <section class="articles">
+
         <article>
-          <div className="article-wrapper">
-            <figure className="fig-1">
-              <img
-                src="https://suvidhafoundationedutech.org/assets/images/Others/slogo_footer.png"
-                alt=""
-              />
+          <div class="article-wrapper">
+            <figure className="">
+              <img alt="" src={oasis} />
             </figure>
             <div class="article-body">
               <h2>Web Development Intern</h2>
@@ -27,8 +26,8 @@ const Experince = () => {
         </article>
         <article>
           <div class="article-wrapper">
-            <figure>
-              <img src="https://user-images.githubusercontent.com/91726340/223084103-c04326c3-f9cc-437d-8a85-abb0865400ec.png" />
+            <figure className="">
+              <img alt="" src={suvidha} />
             </figure>
             <div class="article-body">
               <h2>Web Development Intern</h2>

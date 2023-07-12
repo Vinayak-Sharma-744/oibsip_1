@@ -12,12 +12,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 800px;
+  max-width: 850px;
+  /* max-height:  50px; */
   gap: 40px;
 }
 
-.fig-1{
-    background-color: #1C2529;
+.fig-1 {
+  background-color: #1c2529;
 }
 
 article {
@@ -30,7 +31,7 @@ article {
 
 article h2 {
   margin: 0 0 18px 0;
-  font-family: "Bebas Neue", cursive;
+  /* font-family: "Bebas Neue", cursive; */
   font-size: 1.9rem;
   letter-spacing: 0.06em;
   color: var(--title-color);
