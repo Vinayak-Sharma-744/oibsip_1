@@ -28,7 +28,9 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to="#skills" smooth>Skills</Link>
+                  <Link to="#skills" smooth>
+                    Skills
+                  </Link>
                 </li>
                 <li>
                   <Link to="#Project" smooth>
@@ -43,7 +45,11 @@ const Navbar = () => {
                 </li>
                 <ul className="social-icons">
                   <li>
-                    <a href="https://github.com/Akashdogra171" target="_blank">
+                    <a
+                      href="https://github.com/Akashdogra171"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <FaGithub style={{ color: "white", cursor: "pointer" }} />
                     </a>
                   </li>
@@ -51,6 +57,7 @@ const Navbar = () => {
                     <a
                       href="https://www.linkedin.com/in/akashdogra171/"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <FaLinkedin
                         style={{ color: "white", cursor: "pointer" }}
