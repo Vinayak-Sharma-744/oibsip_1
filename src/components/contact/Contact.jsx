@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./contact.css";
+import emailjs from "@emailjs/browser";
 import {
   FaFacebook,
   FaWhatsapp,
@@ -9,6 +10,26 @@ import {
 } from "react-icons/fa";
 
 const Contact = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_096p225",
+        "template_mmr696h",
+        form.current,
+        "m-2zcP03M9JbtvoJT"
+      )
+      .then(
+        (res) => {
+          console.log(res.text);
+        },
+        (error) => {
+          console.log(error);
+        }
+      );
+  };
   return (
     <div id="contact-main">
       <div className="contHeading">
@@ -19,39 +40,65 @@ const Contact = () => {
         <ul>
           <li class="facebook">
             <a href="#">
-              <FaFacebook className="brandIcon" style={{ fontSize:"50", color: "black", cursor: "pointer" }} onMouseOver={({target})=>target.style.color="#3b5998"} />
+              <FaFacebook
+                className="brandIcon"
+                style={{ fontSize: "50", color: "black", cursor: "pointer" }}
+                onMouseOver={({ target }) => (target.style.color = "#3b5998")}
+              />
             </a>
           </li>
           <li class="twitter">
             <a href="#">
-              <FaTwitter className="brandIcon" style={{ fontSize:"50", color: "black", cursor: "pointer" }} onMouseOver={({target})=>target.style.color="#00aced"} />
+              <FaTwitter
+                className="brandIcon"
+                style={{ fontSize: "50", color: "black", cursor: "pointer" }}
+                onMouseOver={({ target }) => (target.style.color = "#00aced")}
+              />
             </a>
           </li>
           <li class="instagram">
             <a href="#">
-              <FaInstagram className="brandIcon" style={{ fontSize:"50", color: "black", cursor: "pointer" }} onMouseOver={({target})=>target.style.color="#bc2a8d"} />
+              <FaInstagram
+                className="brandIcon"
+                style={{ fontSize: "50", color: "black", cursor: "pointer" }}
+                onMouseOver={({ target }) => (target.style.color = "#bc2a8d")}
+              />
             </a>
           </li>
           <li class="google">
             <a href="#">
-              <FaEnvelope className="brandIcon" style={{ fontSize:"50", color: "black", cursor: "pointer" }} onMouseOver={({target})=>target.style.color="#dd4b39"} />
+              <FaEnvelope
+                className="brandIcon"
+                style={{ fontSize: "50", color: "black", cursor: "pointer" }}
+                onMouseOver={({ target }) => (target.style.color = "#dd4b39")}
+              />
             </a>
           </li>
           <li class="whatsapp">
             <a href="#">
-              <FaWhatsapp className="brandIcon" style={{ fontSize:"50", color: "black", cursor: "pointer" }} onMouseOver={({target})=>target.style.color="#4dc247"} />
+              <FaWhatsapp
+                className="brandIcon"
+                style={{ fontSize: "50", color: "black", cursor: "pointer" }}
+                onMouseOver={({ target }) => (target.style.color = "#4dc247")}
+              />
             </a>
           </li>
         </ul>
       </div>
 
       <div className="form">
-        <form action="" className="entry">
+        <form action="" className="entry" onSubmit={sendEmail} ref={form}>
           <div className="inputDiv">
-            <input className="input ip1" type="text" placeholder="Name"></input>
+            <input
+              className="input ip1"
+              name="name"
+              type="text"
+              placeholder="Name"
+            ></input>
 
             <input
               className="input ip2"
+              name="user-email"
               type="text"
               placeholder="Email"
             ></input>
@@ -66,7 +113,7 @@ const Contact = () => {
           <br />
 
           <textarea
-            name=""
+            name="message"
             id="Message"
             cols="93"
             rows="15"
@@ -74,7 +121,7 @@ const Contact = () => {
           ></textarea>
           <br />
 
-          <input type="button" value="Send Message" className="button"></input>
+          <button className="contact-b4">Send Message</button>
         </form>
       </div>
     </div>
