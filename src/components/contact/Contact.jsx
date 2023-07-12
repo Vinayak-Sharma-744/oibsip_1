@@ -38,7 +38,7 @@ const Contact = () => {
 
       <div class="wrapper">
         <ul>
-          <li class="facebook">
+          {/* <li class="facebook" target="_blank" rel="noreferrer">
             <a href="#">
               <FaFacebook
                 className="brandIcon"
@@ -46,9 +46,13 @@ const Contact = () => {
                 onMouseOver={({ target }) => (target.style.color = "#3b5998")}
               />
             </a>
-          </li>
+          </li> */}
           <li class="twitter">
-            <a href="#">
+            <a
+              href="https://twitter.com/akashdogra171"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaTwitter
                 className="brandIcon"
                 style={{ fontSize: "50", color: "black", cursor: "pointer" }}
@@ -57,7 +61,11 @@ const Contact = () => {
             </a>
           </li>
           <li class="instagram">
-            <a href="#">
+            <a
+              href="https://www.instagram.com/akashdogra171/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaInstagram
                 className="brandIcon"
                 style={{ fontSize: "50", color: "black", cursor: "pointer" }}
@@ -66,7 +74,12 @@ const Contact = () => {
             </a>
           </li>
           <li class="google">
-            <a href="#">
+            <a
+              id="emailMe"
+              href="mailto:akashdogra171@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaEnvelope
                 className="brandIcon"
                 style={{ fontSize: "50", color: "black", cursor: "pointer" }}
@@ -75,7 +88,7 @@ const Contact = () => {
             </a>
           </li>
           <li class="whatsapp">
-            <a href="#">
+            <a href="https://wa.me/6239559679" target="_blank" rel="noreferrer">
               <FaWhatsapp
                 className="brandIcon"
                 style={{ fontSize: "50", color: "black", cursor: "pointer" }}
