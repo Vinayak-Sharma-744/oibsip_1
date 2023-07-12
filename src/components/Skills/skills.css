@@ -1,16 +1,7 @@
-* {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-/* body{
-  background: #333;
-  text-transform: uppercase;
-} */
-h1 {
+.skill h1 {
   text-align: center;
 }
-h3 {
+.skill h3 {
   margin: 15px;
 }
 .skill {
