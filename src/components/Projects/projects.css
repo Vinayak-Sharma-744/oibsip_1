@@ -90,3 +90,16 @@
 .content h3 {
   color: #5e5df0;
 }
+
+@media screen and (max-width: 1000px) {
+    .pro{
+        flex-direction: column;
+    }
+    #Project{
+        margin-top: 200px;
+        margin-bottom: 300px;
+    }
+    .heading{
+        margin-bottom: 50px;
+    }
+   }
