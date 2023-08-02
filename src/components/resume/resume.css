@@ -1,4 +1,5 @@
 #Resume {
+    margin: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,16 +14,16 @@
   /* align-items: center; */
   margin-left: 50px;
   flex-direction: column;
-  font-size: 25px;
+  /* font-size: 25px; */
 }
 .resume-left-text h1 {
-  max-width: 35vw;
+  font-size: 5vw;
   color: #5e5df0;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .resume-left-text p {
   margin-top: 30px;
-  font-size: 20px;
+  font-size: 2vw;
   color: rgb(23, 29, 29);
   line-height: 40px;
 }
@@ -62,7 +63,7 @@
 .resume-icons {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   font-size: 100px;
   margin-top: 50px;
   font-weight: bolder;
@@ -162,3 +163,21 @@
     top: 0;
   }
 }
+
+
+@media screen and (max-width: 1120px) {
+    .resume-right{
+        display: none;
+    }
+    #Resume {
+        margin-top: 20px;
+      }
+    .resume-left{
+        width: 100vw;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   }
+

@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import "./Navbar.css";
-import logo from "../images/logo.png";
+// import logo from "../images/logo.png";
 import { BrowserRouter } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 
@@ -9,14 +9,14 @@ const Navbar = () => {
   return (
     <BrowserRouter>
       <nav className="navBar">
-        <div className="nav-center">
-          <div className="nav-header">
-            <Link to="#Home" smooth>
-              <img src={logo} alt="logo" />
-            </Link>
-
             <div className="links-container show-container">
               <ul className="links">
+                <li>
+                  <Link to="#Home" smooth>
+                    {/* <img src={logo} alt="logo" /> */}
+                    <h1>AKASH</h1>
+                  </Link>
+                </li>
                 <li>
                   <Link to="#Home" smooth>
                     About
@@ -67,8 +67,6 @@ const Navbar = () => {
                 </ul>
               </ul>
             </div>
-          </div>
-        </div>
       </nav>
     </BrowserRouter>
   );
