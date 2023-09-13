@@ -111,6 +111,7 @@
 @media screen and (max-width: 745px) {
    #Home{
     flex-direction: column;
+    margin-top: 30px;
    }
    .home-img{
     display: none;
