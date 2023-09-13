@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import myimage from "../images/NewImg.png";
+import myimage from "../images/WhatsApp_Image_2023-09-13_at_1.01.07_PM-removebg-preview.png";
 
 const Home = () => {
   return (

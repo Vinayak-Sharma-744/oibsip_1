@@ -1,6 +1,6 @@
 import React from "react";
 import "./resume.css";
-import Akash from "./akash.pdf";
+import Akash from "./OerLeaf Vinayak_Sharma_Resume.pdf";
 import { FaReact, FaNodeJs, FaCss3Alt } from "react-icons/fa";
 
 const Resume = () => {

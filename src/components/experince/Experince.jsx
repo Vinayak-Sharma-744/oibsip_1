@@ -32,9 +32,8 @@ const Experince = () => {
             <div class="article-body">
               <h2>Web Development Intern</h2>
               <p>
-                As a Web Development Intern, I worked on the frontendend side of
-                the website on individual basis. I completley resdesgined the
-                frontend of the the Website from scratch.
+                As a Web Development Intern, I worked on the fullstack websites on individual basis. I completley resdesgined the
+                frontend of the the Website as well as the servers from scratch.
               </p>
             </div>
           </div>

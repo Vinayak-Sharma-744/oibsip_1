@@ -14,7 +14,7 @@ const Navbar = () => {
                 <li>
                   <Link to="#Home" smooth>
                     {/* <img src={logo} alt="logo" /> */}
-                    <h1>AKASH</h1>
+                    <h1>Vinayak</h1>
                   </Link>
                 </li>
                 <li>
@@ -46,7 +46,7 @@ const Navbar = () => {
                 <ul className="social-icons">
                   <li>
                     <a
-                      href="https://github.com/Akashdogra171"
+                      href="https://github.com/Vinayak-Sharma-744"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -55,7 +55,7 @@ const Navbar = () => {
                   </li>
                   <li>
                     <a
-                      href="https://www.linkedin.com/in/akashdogra171/"
+                      href="https://www.linkedin.com/in/er-vinayak-sharma-/"
                       target="_blank"
                       rel="noreferrer"
                     >

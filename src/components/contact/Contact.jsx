@@ -48,7 +48,7 @@ const Contact = () => {
           </li> */}
           <li class="twitter">
             <a
-              href="https://twitter.com/akashdogra171"
+              href="https://x.com/vinayak_744?t=MlwO253eegVDdoPLsTPFsg&s=09"
               target="_blank"
               rel="noreferrer"
             >
@@ -61,7 +61,7 @@ const Contact = () => {
           </li>
           <li class="instagram">
             <a
-              href="https://www.instagram.com/akashdogra171/"
+              href="https://www.instagram.com/me._.vinayak/"
               target="_blank"
               rel="noreferrer"
             >
@@ -75,7 +75,7 @@ const Contact = () => {
           <li class="google">
             <a
               id="emailMe"
-              href="mailto:akashdogra171@gmail.com"
+              href="mailto:sharmavinayak744@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -87,7 +87,7 @@ const Contact = () => {
             </a>
           </li>
           <li class="whatsapp">
-            <a href="https://wa.me/6239559679" target="_blank" rel="noreferrer">
+            <a href="https://wa.me/9464429459" target="_blank" rel="noreferrer">
               <FaWhatsapp
                 className="brandIcon"
                 style={{ fontSize: "50", color: "black", cursor: "pointer" }}
