@@ -9,6 +9,7 @@
   justify-content: space-evenly;
   width: 100%;
   z-index: 9;
+  margin-bottom: 5px;
 }
 
 .links-container h1{

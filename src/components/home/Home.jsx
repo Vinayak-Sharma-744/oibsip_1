@@ -4,7 +4,6 @@ import myimage from "../images/NewImg.png";
 
 const Home = () => {
   return (
-    <div>
       <div id="Home">
         <div className="home-txt">
           <div>
@@ -25,7 +24,6 @@ const Home = () => {
           <img src={myimage} alt="profile pic" />
         </div>
       </div>
-    </div>
   );
 };
 export default Home;
